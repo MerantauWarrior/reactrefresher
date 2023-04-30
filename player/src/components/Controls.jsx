@@ -21,6 +21,7 @@ function Controls({playPause, next, prev, prevFow, nextFow, audRef, duration, pr
           type="range"
           min={0}
           max={100}
+          step={0.1}
           value={volume}
           onChange={(e) => setVolume(e.target.value)}
           style={{width: '100%'}}

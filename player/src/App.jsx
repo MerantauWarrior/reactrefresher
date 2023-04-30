@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Controls from "./components/Controls";
 import List from "./components/List";
+import './index.css'
 
 const data = [
   '/songs/1.mp3',
